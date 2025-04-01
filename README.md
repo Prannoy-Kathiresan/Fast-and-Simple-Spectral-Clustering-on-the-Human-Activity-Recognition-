@@ -40,13 +40,18 @@ This project implements and compares **Fast & Simple Spectral Clustering** (Macg
 
 ## 📊 Results Overview
 
-| Mode       | Algorithm               | NMI    | ARI    | Runtime (s) |
-|------------|--------------------------|--------|--------|--------------|
-| Connectivity | FastSpectralCluster      | 0.4960 | 0.3623 | 16.12        |
-| Connectivity | ClassicSpectralCluster   | 0.6838 | 0.4772 | 16.95        |
-| Distance     | FastSpectralCluster      | 0.4942 | 0.3571 | 16.06        |
-| Distance     | ClassicSpectralCluster   | 0.6796 | 0.4745 | 16.75        |
+| **KNN Mode**     | **Metric**       | **FastSpectralCluster** | **ClassicSpectralCluster** |
+|------------------|------------------|--------------------------|-----------------------------|
+| **Connectivity** | NMI              | 0.4960                   | 0.6838 ↑                    |
+|                  | ARI              | 0.3623                   | 0.4772 ↑                    |
+|                  | Running time (s) | 16.1241 ↓                | 16.9588                     |
+| **Distance**     | NMI              | 0.4942                   | 0.6796 ↑                    |
+|                  | ARI              | 0.3571                   | 0.4745 ↑                    |
+|                  | Running time (s) | 16.0628 ↓                | 16.7482                     |
 
+> 🔍 **Legend:**  
+> ↑ = better performance (higher NMI/ARI)  
+> ↓ = faster (lower runtime) Algorithm         
 > ✅ FastSpectralCluster is consistently faster with ~80% of the clustering quality.
 
 ---
