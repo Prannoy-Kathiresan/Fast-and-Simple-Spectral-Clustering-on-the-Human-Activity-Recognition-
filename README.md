@@ -67,15 +67,15 @@ This project implements and compares **Fast & Simple Spectral Clustering** (Macg
 
 ### 📌 Fast Spectral Clustering Output:
 
-![Fast Clusters](./images/download(1).png)
+![Fast Clusters](./images/download (1).png)
 
-![Fast Clusters](./images/download(3).png)
+![Fast Clusters](./images/download (3).png)
 
 ### 📌 Classical Spectral Clustering Output:
 
-![Classical Clusters](./images/download(5).png)
+![Classical Clusters](./images/download (5).png)
 
-![Classical Clusters](./images/download(7).png)
+![Classical Clusters](./images/download (7).png)
 
 > *Detailed report and visuals in `Report.pdf`, Section 4.2.2 (Figures 1–6)*
 
