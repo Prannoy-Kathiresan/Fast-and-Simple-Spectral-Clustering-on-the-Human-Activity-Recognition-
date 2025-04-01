@@ -52,7 +52,7 @@ This project implements and compares **Fast & Simple Spectral Clustering** (Macg
 > 🔍 **Legend:**  
 > ↑ = better performance (higher NMI/ARI)  
 > ↓ = faster (lower runtime) Algorithm         
-> ✅ FastSpectralCluster is consistently faster with ~80% of the clustering quality.
+> ✅ FastSpectralCluster achieves ~75–80% of clustering quality with significantly faster runtime.
 
 ---
 
